@@ -11,7 +11,7 @@ en el HTML) en el archivo de JavaScript al momento de cargar el HTML no aparecí
 “chat.agregarMensaje(…) llama a render(), y el render() tiene la instrucción areaMensajes.innerHTML = "";, JavaScript borra 
 todo lo que escribiste manualmente en el HTML para poner lo que hay en el objeto chat. La solución correcta: No debes escribir 
 los mensajes en el HTML. Debes agregarlos al estado (el arreglo del chat) al iniciar el programa.” Por lo que procedí a poner 
-manualmente mis mensajes (los cuales se encuentran al final del archivo y son exactamente los mismos que ya tenía en el HTML)
+manualmente mis mensajes (los cuales se encuentran al final del archivo y son exactamente los mismos que ya tenía en el HTML).
 
 Y por último la consulta fue para saber cuál era el método concreto para simular que mi asistente tardara en arrojar las 
 respuestas para simular que está pensando qué decir, por lo que me dio unos ejemplos de cómo se implementa y fue lo que se agregó 
