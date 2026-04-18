@@ -109,7 +109,7 @@ function responderAsistente() {
             indiceRespuestaActual++;
             
         } else {
-            // Cuando se acaben solo devolvemos una respuesta mas con emoji porque es muy chat gpt
+            // Cuando se acaben los mensajes solo devolvemos una respuesta con emoji porque es muy chat gpt
             chat.agregarMensaje("asistente", "¿Tu persnaje es Alan Turing? 🤖");
         }
     }, 1500);
